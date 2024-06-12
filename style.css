@@ -1,0 +1,182 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h2
+{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+
+.nav
+{
+  background-image: url(image/money_heist_photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Netflix
+{
+   width: 40px;
+   object-fit: contain;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+ 
+.netflix_avatar
+{
+  width: 30px;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+
+}
+
+.logos
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+ h1
+ {
+  font-size: 50px;
+  margin-top: 150px;
+  margin-left: 30px;
+ }
+
+ .button
+ {
+  color: white;
+  background-color: rgba(5, 5, 5, 0.678);
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+ }
+
+ .buttons
+ {
+  margin-left: 65px;
+ }
+
+ .button:hover
+ {
+  color: black;
+  background-color: white;
+  font-family: cursive;
+  cursor: pointer;
+ }
+
+.description
+{
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+
+.fade
+{
+   height: 150px;
+  background: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.59),rgb(128, 128, 128));
+ 
+}
+
+
+
+
+
+
+.images
+{
+  display: flex;
+  margin-left: 13px;
+  
+}
+.row_poster1
+{
+  max-width: 450px;
+  height: 300px;
+  padding-right: 13px;
+  transition: transform 550ms;
+  
+}
+
+.row_poster1:hover
+{
+   transform: scale(1.10);
+}
+
+.images
+{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.images::-webkit-scrollbar
+{
+  display: none;
+}
+
+
+.images1
+{
+  display: flex;
+  margin-left: 10px;
+  
+}
+
+.images1 img
+{
+  min-width: 200px;
+  height: 170px;
+  margin-right: 10px;
+  transition: transform 550ms;
+}
+
+.images1 img:hover
+{
+  transform: scale(1.20);
+}
+
+.images1
+{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.images1::-webkit-scrollbar
+{
+  display: none;
+}
+
+
+
+.footer
+{
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    
+}
